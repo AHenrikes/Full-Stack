@@ -1,0 +1,8 @@
+
+Nowadays we use the state hook to add state to our React components, which is part of the newer versions of React
+https://reactjs.org/docs/hooks-state.html
+
+Before the addition of hooks, there was no way to add state to functional components.
+
+Components that required state had to be defined as class components, using the JavaScript class syntax.
+https://reactjs.org/docs/react-component.html
