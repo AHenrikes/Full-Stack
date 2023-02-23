@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sigin: border-box;
+}
+
+body {
+  display: grid;
+  height: 100dvh;
+  place-content: center;
+}
+
+body::before {
+  content: 'Anecdote 1.11 - 1.14';
+  justify-self: center;
+  margin-bottom: 5rem;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+#parentCtn {
+  display: grid;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 1rem 1rem;
+  border-radius: 7px;
+}
+
+h1 {
+  padding-bottom: 1rem;
+}
+
+button {
+  height: 3rem;
+  border: 1px solid white;
+  margin: .9rem 0;
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
