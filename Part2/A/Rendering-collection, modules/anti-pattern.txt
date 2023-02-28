@@ -1,0 +1,23 @@
+Array Indexes as Keys
+
+The indexes can be retrieved by passing a second parameter
+to the callback function of the map method: 
+
+notes.map((note, i) => ...)
+
+When called like this, i is assigned the value of the index
+of the position in the array where the note resides.
+
+
+<ul>
+  {notes.map((note, i) => 
+    <li key={i}>
+      {note.content}
+    </li>
+  )}
+</ul>
+
+As such, one way to define the row generation without getting errors
+This is not recommended and can create undesired problems even if it seems to be working just fine.
+https://robinpokorny.medium.com/index-as-a-key-is-an-anti-pattern-e0349aece318
+// ---------------------------------------------------------------------------------------------->
