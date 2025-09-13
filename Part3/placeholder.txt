@@ -1,0 +1,2 @@
+In this exercise you will deal with modular integers, which means numbers 0, 1, 2, ..., n-1, where n is the modulus. When the modulus is 5, the numbers are 0, 1, 2, 3, 4, but -3 and 7 are ok. However -3 = 2 = 7. A more orthodox way would be to write -3 ≡ 2 ≡ 7, but an ordinary equal sign will do when the context is clear (e.g. mentioned in the start of the exercise). It is always ok to write 2=7 modulo 5 or 2=7 (mod 5).
+
